@@ -1,0 +1,16 @@
+{
+  "name": "idea-gather",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "less": "^4.1.2",
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.30"
+  }
+}
