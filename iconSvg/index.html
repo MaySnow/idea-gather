@@ -5,10 +5,30 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      #app {
+        background-color: gainsboro;
+        width: 180px;
+      }
+      #subApp {
+        position: fixed;
+        left: 180px;
+        color: white;
+        padding-left: 10px;
+      }
+      #subApp ul {
+        background-color: red;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <div id="svgTest"></div>
     <div id="app"></div>
+    <div id="subApp"></div>
     <script type="module" src="/iconSvg/main.js"></script>
   </body>
 </html>
