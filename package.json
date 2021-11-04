@@ -4,13 +4,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "pro": "npm run build  && node build/demo.js"
   },
   "devDependencies": {
+    "dotenv": "^10.0.0",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0",
     "less": "^4.1.2",
-    "vite": "^2.6.4"
+    "vite": "^2.6.4",
+    "winston": "^3.3.3"
   },
   "dependencies": {
-    "nanoid": "^3.1.30"
+    "nanoid": "^3.1.30",
+    "qiniu": "^7.4.0"
   }
 }
