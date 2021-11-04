@@ -14,6 +14,7 @@ module.exports = defineConfig({
     }
   },
   server: {
-    port: 3000
+    // 若端口已被占用则会直接退出，而不是尝试下一个可用端口
+    strictPort: 3000
   }
 })
