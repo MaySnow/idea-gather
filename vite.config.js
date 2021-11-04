@@ -12,5 +12,8 @@ module.exports = defineConfig({
         iconSvg: resolve(__dirname, 'iconSvg/index.html')
       }
     }
+  },
+  server: {
+    port: 3000
   }
 })
